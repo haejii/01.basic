@@ -1,12 +1,7 @@
 
 # 01.basic
 
-[![Contributors](https://img.shields.io/github/contributors-anon/modern-javascript-study/js-workbook)](https://github.com/modern-javascript-study/js-workbook)
-[![LastCommit](https://img.shields.io/github/last-commit/modern-javascript-study/js-workbook)](https://github.com/modern-javascript-study/js-workbook)
-[![Commit](https://img.shields.io/github/commit-activity/w/modern-javascript-study/js-workbook)](https://github.com/modern-javascript-study/js-workbook)
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fmodern-javascript-study%2Fjs-workbook&count_bg=%23FF8500&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://github.com/modern-javascript-study/js-workbook)
 
-<br/>
 
 # 알고리즘스터디 ✍🏻
 
