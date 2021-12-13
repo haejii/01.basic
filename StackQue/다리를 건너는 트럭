@@ -1,0 +1,39 @@
+import java.util.*;
+
+class Solution {
+    public int solution(int bridge_length, int weight, int[] truck_weights) {
+          Queue<Integer> queue = new LinkedList<>();
+		int wight = 0;
+		int time = 0; 
+
+		for(int i = 0; i < truck_weights.length; i++) {
+			int truck = truck_weights[i];
+
+            
+			while(true) {
+			//1) 큐에 아무 것도 없을 때, 	
+				if(queue.isEmpty()) { 
+					queue.add(truck);
+					wight += truck;
+					time++; // 다리에 오를 때만 시간 추가 
+					break;
+				} else if(queue.size() == bridge_length) { //2) 큐에 다리길이 만큼 사이즈가 찻을때
+					wight -= queue.poll();
+				} else  {
+					// weight 값안에 더 추가해주기
+					if(wight + truck <= weight) {
+						queue.add(truck);
+						wight += truck;
+						time++;
+						break;
+					} else { 
+						queue.add(0);
+						time++;
+					}
+				}
+			}
+		}
+
+		return time + bridge_length; 
+    }
+}
